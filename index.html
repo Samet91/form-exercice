@@ -4,9 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form-exercise</title>
 </head>
 <body>
-    <input type="text" name="" id="">
+    <form> 
+
+    <h1>Der Weg <b>in deine Digitale Zukunft.</b></h1>
+
+    <fieldset>
+        <legend>Anrede*</legend>
+        <input id="mrs" type="radio" name="name"><label for="mrs">Frau</label>
+        <input id="mr" type="radio" name="name"><label for="mr">Herr</label>
+    </fieldset><br>
+    
+    <label for="fname">Vorname*</label><br>
+    <input type="text" id="fname" placeholder="zb. Max" required><br><br>
+
+    <label for="lname">Nachname*</label><br>
+    <input type="text" id="lname" placeholder="zb. Meyer" required><br><br>
+
+    <label for="e-mail">E-Mail-Adresse*</label><br>
+    <input type="email" id="e-mail" placeholder="zb. max@hotmail.de" required><br><br>
+
+    <fieldset>
+        <legend>Ich interessiere mich für...*</legend>
+        <input id="web" type="checkbox" name="school">
+        <label for="web">Web Development</label>
+
+        <input id="data" type="checkbox" name="school">
+        <label for="data">Data Science</label>
+
+        <input id="java" type="checkbox" name="school">
+        <label for="java">Java</label>
+
+        <input id="DA" type="checkbox" name="school">
+        <label for="DA">Data Analytics</label>
+
+        <input id="cloud" type="checkbox" name="school">
+        <label for="cloud">Cloud Development</label>
+    </fieldset><br>
+
+    <fieldset>
+        <legend>Bevorzugt in der Region...*</legend>
+
+        
+    </fieldset>
+   </form>
+        
 </body>
 </html> 
